@@ -6,5 +6,6 @@ class Shoe
   attr_accessor :brand, :color, :name, :size, :material, :condition
 
   def cobble
+    puts "Your shoe is as good as new!"
   end
 end
