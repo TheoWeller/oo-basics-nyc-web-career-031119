@@ -6,8 +6,9 @@ class Shoe
   attr_accessor :brand, :color, :name, :size, :material, :condition
 
   def cobble(arg)
-    self.condition="new"
+    if self.condition="old"
     puts "Your shoe is as good as new!"
-
+  end
+self.condition="new"
   end
 end
